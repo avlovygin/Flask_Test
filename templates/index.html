@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<form>
+    <input name="word" placeholder="Введите слово">
+    <input type="submit" value="Перевести">
+</form>
+{%if word%}
+    <p> {{ word }} - {{ translation }} </p>
+{% endif %}
+</body>
+</html>
