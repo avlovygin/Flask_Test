@@ -2,10 +2,6 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 
-# from requests.auth import HTTPBasicAuth
-# basic = requests.HTTPBasicAuth('+380631634797', '9T8cez8n533PRRJm')
-# response = requests.get('https://api.smilefooder.com.ua/api/v1/login', auth=basic)
-
 
 def test_auth_1c():
     # uath = {"login": "pypbot", "password": "pypbot!"}
